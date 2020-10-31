@@ -25,7 +25,7 @@ SECRET_KEY = ')dl5d#i_nz=9q^pv=^_jld8)$1$l#%d2$3h(tmvwy41z80l=%d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['django-api-tg.herokuapp.com/', 'localhost']
 
 BOT_TOKEN = '1446437171:AAGLUHmzNfF7RVyiU80Nbd5wgLkg5AE2-i4'
 # PROXY_URL = 'https://telegg.ru/orig/bot'
