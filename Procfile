@@ -1,2 +1,2 @@
-web: gunicorn tgadm.wsgi
 worker: python chatacc/management/commands/bot.py
+web: gunicorn tgadm.wsgi
