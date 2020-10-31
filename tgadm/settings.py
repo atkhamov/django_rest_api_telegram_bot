@@ -79,8 +79,12 @@ WSGI_APPLICATION = 'tgadm.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'd13jglpmoagqvn',
+        'HOST': 'ec2-34-238-26-109.compute-1.amazonaws.com',
+        'PORT': 5432,
+        'USER': 'qniezjwdshtzfs',
+        'PASSWORD': '4187f732b888c02595120541f2f8e777c8567b3fd302ae05a0362fbf858af85f',
     }
 }
 
